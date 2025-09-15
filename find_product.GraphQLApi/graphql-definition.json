@@ -1,0 +1,71 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/graphqlApi/definition/1.0.0/schema.json",
+  "datasources": [
+    {
+      "objects": [
+        {
+          "actions": {
+            "Query": "Enabled",
+            "Query_by_pk": "Enabled",
+            "Create": "Enabled",
+            "Update": "Enabled",
+            "Delete": "Enabled"
+          },
+          "fieldMappings": {
+            "ModifiedDate": "ModifiedDate",
+            "Name": "Name",
+            "ParentProductCategoryID": "ParentProductCategoryID",
+            "ProductCategoryID": "ProductCategoryID",
+            "rowguid": "rowguid"
+          },
+          "graphqlType": "ProductCategory",
+          "relationships": [],
+          "sourceObject": "SalesLT.ProductCategory",
+          "sourceObjectType": "Table"
+        }
+      ],
+      "sourceItemId": "376f48dd-01c8-48ee-b1e5-a748da14cf0c",
+      "sourceType": "MountedWarehouse",
+      "sourceWorkspaceId": "22d14f90-72d6-497f-a148-c9083055fa3b"
+    },
+    {
+      "objects": [
+        {
+          "actions": {
+            "Query": "Enabled",
+            "Query_by_pk": "Enabled",
+            "Create": "Enabled",
+            "Update": "Enabled",
+            "Delete": "Enabled"
+          },
+          "fieldMappings": {
+            "Color": "Color",
+            "DiscontinuedDate": "DiscontinuedDate",
+            "ListPrice": "ListPrice",
+            "ModifiedDate": "ModifiedDate",
+            "Name": "Name",
+            "ProductCategoryID": "ProductCategoryID",
+            "ProductID": "ProductID",
+            "ProductModelID": "ProductModelID",
+            "ProductNumber": "ProductNumber",
+            "rowguid": "rowguid",
+            "SellEndDate": "SellEndDate",
+            "SellStartDate": "SellStartDate",
+            "Size": "Size",
+            "StandardCost": "StandardCost",
+            "ThumbNailPhoto": "ThumbNailPhoto",
+            "ThumbnailPhotoFileName": "ThumbnailPhotoFileName",
+            "Weight": "Weight"
+          },
+          "graphqlType": "Product",
+          "relationships": [],
+          "sourceObject": "SalesLT.Product",
+          "sourceObjectType": "Table"
+        }
+      ],
+      "sourceItemId": "4e446ffa-e7fd-b4e1-4aba-da7a83a9f1dd",
+      "sourceType": "SqlDbNative",
+      "sourceWorkspaceId": "00000000-0000-0000-0000-000000000000"
+    }
+  ]
+}

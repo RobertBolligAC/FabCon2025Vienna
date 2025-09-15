@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SQLDatabase",
+    "displayName": "FC25_DB_rbo"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "4e446ffa-e7fd-b4e1-4aba-da7a83a9f1dd"
+  }
+}
